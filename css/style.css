@@ -1,0 +1,442 @@
+html,
+body,
+h1,
+h2,
+h3 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #636363;
+}
+
+header.contenedor-menu {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+}
+
+header .menu {
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor-imagen-ppal {
+    background-image: url("../img/tower-bridge-london_1449273629.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+    -webkit-box-shadow: 0px -6px 22px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -6px 22px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -6px 22px 0px rgba(0, 0, 0, 0.75);
+}
+
+header .logo {
+    float: left;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+a {
+    text-decoration: none!important;
+}
+a:hover {
+    text-decoration: none;
+}
+
+header .logo,
+header .items-derecha {
+    padding-top: 25px;
+}
+
+.items-derecha {
+    float: right;
+}
+
+.items-derecha ul {
+    padding-top: 10px;
+}
+
+.contenedor-bienvenidos {
+    padding-top: 250px;
+    width: 70%;
+    margin: auto;
+}
+
+.bienvenidos {
+    padding: 25px;
+    text-align: center;
+    color: #FFF;
+    border: solid 1.5px #fff;
+}
+
+.bienvenidos:hover {
+    border: solid 1.5px #E700BE;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.bienvenidos h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bienvenidos h3 {
+    padding: 10px!important;
+    line-height: 40px;
+    font-weight: 300;
+    color: #FFF!important;
+}
+
+.logo img {
+    width: 60px;
+}
+
+
+/*SOBRE MI*/
+
+#sobre-mi {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#sobre-mi .contenedor-sobre-mi {
+    width: 100%;
+    margin: auto;
+}
+
+#sobre-mi .contenedor-sobre-mi p {
+    font-size: 20px;
+}
+
+
+/*FORM*/
+
+#contacto {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#contacto form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea[type="text"] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #636363;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+textarea[type="text"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+    outline: 1px solid #C400B4!important;
+    padding-left: 10px;
+    border-bottom: none;
+}
+
+textarea {
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #636363;
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#contacto input[type="submit"] {
+    margin: auto;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#contacto .contacto-info {
+    margin-top: 60px;
+}
+
+#contacto .contacto-info a i {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+#contacto .contacto-info img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer .contenedor .redes {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer .contenedor .redes a i {
+    color: #636363;
+    font-size: 30px;
+    padding-right: 25px;
+}
+
+.mail a,
+.whatsapp a {
+    text-decoration: none;
+    color: #636363;
+}
+
+footer .contenedor .redes a i:hover,
+.mail:hover,
+.mail a:hover,
+header ul li a:hover,
+.whatsapp a:hover,
+.contenedor-menu-trabajos a:hover {
+    color: #C400B4;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+input.enviar:hover {
+    background-color: #C400B4;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+footer .parrafo {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+input.enviar {
+    width: 200px;
+    height: 60px;
+}
+
+
+/*Trabajos*/
+
+
+
+.list-container {
+    height: 800px;
+}
+
+#mis-trabajos {
+    padding-top: 50px;
+}
+
+#mis-trabajos h3 {
+    text-align: center;
+}
+
+#mis-trabajos .contenedor-trabajos {
+    overflow: hidden;
+}
+
+#mis-trabajos .trabajo {
+    display: flex;
+    width: 100%;
+    float: left;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+#mis-trabajos .trabajo img {
+    width: 100%;
+}
+
+#mis-trabajos .trabajo:hover {
+    transform: scale(1.005);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.info-trabajo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 30PX;
+    left: 30px;
+    padding: 15px;
+}
+
+.info-trabajo p {
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+p.cliente {
+    text-transform: lowercase;
+}
+
+.info-trabajo i {
+    margin-top: 10px;
+    background-color: #C400B4;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.info-trabajo i:hover {
+    background-color: #C848BE;
+    color: #fff;
+}
+
+.info-hover {
+    width: 100%;
+}
+
+.info-hover:hover {
+    display: block;
+}
+
+.contenedor-menu-trabajos {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+    overflow: hidden;
+    border-bottom: solid 1px #000;
+    border-top: solid 1px #000;
+    margin-bottom: 40px;
+}
+
+.contenedor-menu-trabajos ul li {
+    list-style: none;
+    display: flex;
+    padding-right: 7%;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+a {
+    color: #636363;
+}
+
+.contenedor-menu-trabajos ul li {
+    text-decoration: none;
+    color: #636363;
+}
+
+.active {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #3B3B3B;
+}
+
+.contenedor-menu-trabajos ul {
+    margin: 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #mis-trabajos .trabajo {
+        width: 48%;
+    }
+    #sobre-mi .contenedor-sobre-mi {
+        width: 70%;
+    }
+    #mis-trabajos .trabajo {
+        padding-right: 10px;
+    }
+    #contacto .contacto-info {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1024px) {
+    header .menu {
+        width: 70%;
+    }
+    header nav ul li {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #mis-trabajos .trabajo {
+        width: 33%;
+    }
+    .contenedor-bienvenidos {
+        width: 35%;
+    }
+}
+
+
+/* @media (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: orange;
+    }
+}
