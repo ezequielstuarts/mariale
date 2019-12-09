@@ -13,7 +13,12 @@ h3 {
     width: 90%;
     margin: auto;
 }
-
+.hide {
+    display: none;
+}
+.block {
+    display: block;
+}
 h3 {
     font-size: 30px;
     text-transform: uppercase;
@@ -228,7 +233,7 @@ footer .contenedor .redes a i:hover,
 .mail a:hover,
 header ul li a:hover,
 .whatsapp a:hover,
-.contenedor-menu-trabajos a:hover {
+.contenedor-menu-trabajos button:hover {
     color: #C400B4;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -302,9 +307,9 @@ input.enviar {
 .info-trabajo {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
-    bottom: 30PX;
+    bottom: 50PX;
     left: 30px;
-    padding: 15px;
+    padding: 20px;
 }
 
 .info-trabajo p {
@@ -365,16 +370,27 @@ p.cliente {
     justify-content: space-around;
     padding: 10px 15px;
     font-weight: 600;
+    text-decoration: none;
+    color: #636363;
+}
+.contenedor-menu-trabajos ul li {
     text-transform: uppercase;
 }
+.contenedor-menu-trabajos ul li:active{
+    border: none;
+    outline: none;
+}
+.contenedor-menu-trabajos ul li .btn:hover {
+    color: #C848BE;
+    text-decoration: none
+} 
+
 
 a {
     color: #636363;
 }
 
 .contenedor-menu-trabajos ul li {
-    text-decoration: none;
-    color: #636363;
 }
 
 .active {
@@ -387,6 +403,7 @@ a {
     margin: 0;
     text-align: center;
 }
+
 
 @media (min-width: 768px) {
     #mis-trabajos .trabajo {
@@ -440,3 +457,6 @@ a {
         background-color: orange;
     }
 }
+
+
+*/
