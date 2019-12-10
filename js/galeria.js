@@ -10,7 +10,7 @@ window.addEventListener("load", function() {
       document.querySelector('#todos').classList.add('block');
       document.querySelector('#btntodos').classList.add('active');
       document.querySelector('#profesional').classList.remove('block');
-      document.querySelector('#profesional').classList.remove('active');
+      document.querySelector('#btnprofesional').classList.remove('active');
       document.querySelector('#personal').classList.remove('block');
       document.querySelector('#btnpersonal').classList.remove('active');
   })
