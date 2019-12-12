@@ -93,9 +93,9 @@
 <section id="contacto">
     <div class="contenedor">
         <h3>Cuéntame tu idea o consulta <br>¡Y empezaremos! </h3>
-        <form action="envio.php" method="post" enctype="multipart/form-data">
-            <input type="text" placeholder="Nombre" name="nombre">
-            <input type="text" placeholder="E.mail" name="email">
+        <form action="enviar.php" method="POST" enctype="multipart/form-data">
+            <input type="text" placeholder="Nombre" name="nombre"value="">
+            <input type="text" placeholder="E.mail" name="email"value="">
             <textarea type="text" name="mensaje" id="" placeholder="Mensaje"></textarea>
             <input class="enviar" type="submit" value="ENVIAR MENSAJE">
         </form>

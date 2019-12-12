@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -93,7 +95,7 @@
 <section id="contacto">
     <div class="contenedor">
         <h3>Cuéntame tu idea o consulta <br>¡Y empezaremos! </h3>
-        <form action="envio.php" method="post" enctype="multipart/form-data">
+        <form action="index.php" method="post" enctype="multipart/form-data">
             <input type="text" placeholder="Nombre" name="nombre">
             <input type="text" placeholder="E.mail" name="email">
             <textarea type="text" name="mensaje" id="" placeholder="Mensaje"></textarea>
