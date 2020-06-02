@@ -2,4 +2,4 @@
 
 Web Online en desarrollo
 
-http://ezequielstuarts/clients/mariale
+http://ezequielstuarts.com.ar/clients/mariale/
